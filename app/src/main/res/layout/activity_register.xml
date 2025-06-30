@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/avatar_image_placeholder"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/nicknameEt"
+            android:hint="@string/enter_your_email"
+            android:background="@drawable/rounded_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/professionEt"
+            android:hint="@string/what_i_do"
+            android:background="@drawable/rounded_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:text="@string/sign_up"
+            android:backgroundTint="#3D77FF"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp" />
+    </LinearLayout>
+</ScrollView>
